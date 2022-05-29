@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,200&display=swap');
+
+body{
+	background: rgb(175, 175, 175);
+}
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background: rgb(175, 175, 175);
+	margin-top: 0%;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+.logo {
+	color: rgb(67, 73, 122);
+	font-size:60px;
+    font-family: 'Lobster', cursive;
+	float:left;
+	width: 10%;
+	margin-right: 40px;
+}
+
+.encabezado{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.titulo{
+	color: rgb(67, 73, 122);
+	font-size:50px;
+    font-family: 'Lobster', cursive;
+	float:left;
+	width: 10%;
+	margin-right: 40px;
+}
+
+
+header nav {
+	float:right;
+	margin-left: 0px;
+}
+
+header nav a {
+	display:inline-block;
+	color: rgb(67, 73, 122);
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size: 30px;
+    font-family: 'Truculenta', sans-serif;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background: rgb(119, 166, 127);
+	border-radius:50px;
+}
+
+
+.cuadrobuscar{
+font-family: 'Truculenta', sans-serif;
+width: 180px;
+}
+
+.botonbuscar{
+	font-family: 'Truculenta', sans-serif;
+	background-color: rgb(67, 73, 122);
+	color:rgb(217, 95, 105);
+	font-size: 20px;
+	border-color: rgb(67, 73, 122);
+	border-radius: 5px;
+	width: 150px;
+	font-weight: bolder;
+
+}
+.sec1{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.frases{
+	width: 60%;
+}
+
+.en1{
+    font-size:45px;
+    font-family: 'Truculenta', sans-serif;
+    margin-top: 60px;
+    color: rgb(217, 95, 105);
+    text-align: center;
+	margin-left: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.en2{
+    font-size:40px;
+    font-family: 'Truculenta', sans-serif;
+    margin-top: 0px;
+    color: rgb(67, 73, 122);
+    text-align: center;
+}
+
+.fot{
+    width: 100%;
+	border-radius: 15px;
+}
+
+.divfoto1{
+	width: 33%;
+	
+}
+
+.sec2{
+	background-color: rgb(67, 73, 122);
+	width: 100%;
+	height: 600px;
+}
+
+.frase1{
+	font-size:40px;
+    font-family: 'Truculenta', sans-serif;
+    margin-top: 0px;
+    color: rgb(119, 166, 127);
+    text-align: center;
+}
+
+.tarjetas{
+	display: flex;
+	justify-content: space-around;
+}
+.tarjetas2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.tarjeta1{
+	width: 33%;
+	height: 220px;
+}
+
+.fotopin{
+	margin-left: 20px;
+	width: 410px;
+	height: 220px;
+	border-radius: 10px;
+}
+
+.tarjeta2{
+	width: 33%;
+	background-color: rgb(67, 73, 122);
+}
+
+.tarjeta3{
+	width: 33%;
+	background-color: rgb(67, 73, 122);
+}
+
+.tarjeta4{
+	width: 33%;
+	height: 200px;
+	background-color: rgb(67, 73, 122);
+	color: rgb(119, 166, 127);
+	text-align: center;
+	font-size:45px;
+    font-family: 'Truculenta', sans-serif;
+}
+
+.tarjeta5{
+	width: 33%;
+	background-color: rgb(67, 73, 122);
+	color: rgb(217, 95, 105);
+	text-align: center;
+	font-size:45px;
+    font-family: 'Truculenta', sans-serif;
+}
+
+.tarjeta6{
+	width: 33%;
+	background-color: rgb(67, 73, 122);
+	color: rgb(119, 166, 127);
+	text-align: center;
+	font-size:45px;
+    font-family: 'Truculenta', sans-serif;
+}
+
+.botontarjetas{
+	font-family: 'Truculenta', sans-serif;
+	background-color: rgb(175, 175, 175);
+	color:rgb(67, 73, 122);
+	font-size: 35px;
+	border-color: rgb(67, 73, 122);
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 35px;
+}
+
+.sec3{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.divimagen1{
+	width: 50%;
+}
+
+.sec4{
+	
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(67, 73, 122);
+}
+
+
+.contact_form{  
+	width: 40%; 
+	height: auto;
+	margin: 10px auto;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+	background-color: rgb(67, 73, 122);
+	padding-left: 30px; 
+	font-family: 'Truculenta', sans-serif;
+	color:rgb(217, 95, 105);
+  }
+  
+  
+  input{
+	background-color: white; 
+	width: 300px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgb(119, 166, 127); 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 20px; 
+	font-family: 'Truculenta', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  
+  textarea{
+	background-color: white; 
+	width: 300px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgb(119, 166, 127); 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 20px; 
+	padding-top: 15px; 
+	font-family: 'Truculenta', sans-serif;
+	color:rgb(67, 73, 122);
+	font-weight: bold;
+	font-size: 20px;
+  }
+  
+  
+  label{
+	display: block; 
+	float: center;  
+  }
+  
+  
+  button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px;   
+	margin-bottom: 20px; 
+	margin-top: 10px;   
+	text-transform: uppercase;
+	background-color: rgb(119, 166, 127); 
+	border-color: rgb(119, 166, 127); 
+	border-style: solid; 
+	border-radius: 10px;  
+	width: 320px;   
+	cursor: pointer;
+	font-family: 'Truculenta', sans-serif;
+	
+  }
+  
+  
+  button p{
+	color: rgb(67, 73, 122); 
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  
+  span{
+	color: rgb(217, 95, 105); 
+  }
+  
+  
+  .aviso{
+	font-size: 18px;  
+	color: rgb(217, 95, 105);;  
+  }
+  
+  
+  h1{
+	font-size: 45px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: rgb(217, 95, 105);
+  }
+  
+  
+  h3{
+	font-size: 25px; 
+	text-align: center;
+	padding-bottom: 30px;
+	color: rgb(175, 175, 175);   
+  }
+  
+  
+  p{
+	font-size: 20px; 
+	color: rgb(217, 95, 105); 
+	font-weight: bolder;
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: rgb(67, 73, 122);
+   font-weight: bold;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: rgb(67, 73, 122);
+  }
+  
+  
+  .formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+  }
+  
+.sec5{
+	background-color: rgb(175, 175, 175);
+}
+
+.tituloredes{
+	color: rgb(217, 95, 105);
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Truculenta', sans-serif;
+}
+
+
+ul.socialIcons {
+	padding: 0;
+	text-align: center;
+  }
+  
+  .socialIcons li {
+	background-color: yellow;
+	list-style: none;
+	display: inline-block;
+	margin: 4px;
+	border-radius: 2em;
+	overflow: hidden;
+  }
+  
+  .socialIcons li a {
+	display: block;
+	padding: 0.5em;
+	min-width: 1.28571429em;
+	max-width: 1.28571429em;
+	height: 1.28571429em;
+	white-space: nowrap;
+	line-height: 1.5em; /*it's working only when you write text with icon*/
+	transition: 0.5s;
+	text-decoration: none;
+	font-family: 'Truculenta', sans-serif;
+	color: #fff;
+  }
+  
+  .socialIcons li i {
+	margin-right: 0.5em;
+  }
+  
+  .socialIcons li:hover a {
+	max-width: 200px;
+	padding-right: 1em;
+	font-family: 'Truculenta', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+  }
+  
+  .socialIcons .facebook {
+	background-color: #3b5998;
+	box-shadow: 0 0 16px #3b5998;
+	font-family: 'Truculenta', sans-serif;
+  }
+  
+  .socialIcons .twitter {
+	background-color: #00aced;
+	box-shadow: 0 0 16px #00aced;
+	font-family: 'Truculenta', sans-serif;
+  }
+  
+  .socialIcons .instagram {
+	background-color: #cd486b;
+	box-shadow: 0 0 16px #cd486b;
+	font-family: 'Truculenta', sans-serif;
+  }
+  
+  .socialIcons .pinterest {
+	background-color: #c92228;
+	box-shadow: 0 0 16px #c92228;
+	font-family: 'Truculenta', sans-serif;
+  }
+  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	header {
+		width:50%; /* Establecemos que el header abarque el 100% del documento */
+		overflow:hidden; /* Eliminamos errores de float */
+		background: rgb(175, 175, 175);
+		margin-top: 0%;
+	}
+	
+	.titulo{
+		color: rgb(67, 73, 122);
+		font-size: 10px;
+		font-family: 'Lobster', cursive;
+		float:left;
+		width: 10%;
+		margin-right: 0px;
+	}
+
+	header nav a {
+		display:inline-block;
+		color: rgb(67, 73, 122);
+		text-decoration:none;
+		line-height:normal;
+		font-size: 5px;
+		font-family: 'Truculenta', sans-serif;
+		font-weight:bold;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+		padding: 1px;
+	}
+header nav a:hover {
+	background: rgb(119, 166, 127);
+	border-radius:3px;
+}
+
+
+.cuadrobuscar{
+font-family: 'Truculenta', sans-serif;
+width: 15px;
+margin-left: 0%;
+}
+
+.botonbuscar{
+	font-family: 'Truculenta', sans-serif;
+	background-color: rgb(67, 73, 122);
+	color:rgb(217, 95, 105);
+	font-size: 5px;
+	border-color: rgb(67, 73, 122);
+	border-radius: 5px;
+	width: 15px;
+	font-weight: bolder;
+}
+
+.frases{
+	width: 10%;
+}
+
+.en1{
+    font-size:10px;
+    font-family: 'Truculenta', sans-serif;
+    margin-top: 60px;
+    color: rgb(217, 95, 105);
+    text-align: left;
+	margin-left: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.en2{
+    font-size:10px;
+    font-family: 'Truculenta', sans-serif;
+    margin-top: 0px;
+    color: rgb(67, 73, 122);
+    text-align: left;
+}
+
+.fot{
+    width: 20%;
+	border-radius: 15px;
+}
+
+.divfoto1{
+	width: 20%;
+	
+}
+
+
+
+}
+
+

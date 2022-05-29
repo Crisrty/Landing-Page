@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresiones.com</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+  </head>
+<body>
+
+<header id="cabeza" class="encabezado">
+  <div class="titulo">Expresiones</div>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Ayuda</a>
+    <a href="#">Contacto</a>
+     
+</nav>
+<article>
+  <input class="cuadrobuscar" type="text" id="searchterm" placeholder="Buscar" />
+    <button class="botonbuscar" type="button" id="search">Buscar!</button>
+</article>
+</header>
+
+
+<main>
+    <div class="sec1">
+
+        <div  class="frases">
+         <h1 class="en1"> ¡Compra tu material artístico con nosotros!</h1>
+            <h2 class="en2"> Siempre estamos disponibles para brindarte la asesoría que necesites</h2>
+        </div>
+        
+       
+        <div class="divimagen1">
+            <img class="fot" src="Pinceles.jpg" alt="">
+        </div>
+          
+    </div>
+
+    <div class="sec2">
+       <h1 class="frase1">¡Productos Nuevos!</h1>
+
+       <div class="tarjetas"> 
+       <div class="tarjeta1">
+         <img class="fotopin" src="tarjeta1.jpg" alt="">
+       </div>
+       <div class="tarjeta2">
+        <img class="fotopin" src="tarjeta2.jpg" alt="">
+         </div>
+       <div class="tarjeta3">
+        <img class="fotopin" src="tarjeta3.jpg" alt="">
+         </div>
+        </div>
+
+        <div class="tarjetas2"> 
+         <div class="tarjeta4">
+        <b>Pinceles y brochas</b>
+        <br> ¡Todos los tamaños, formas y materiales!
+        <br><button class="botontarjetas" type="button" id="search">Ver más</button>
+         </div>
+             <div class="tarjeta5"> 
+        <b>Lienzos y caballetes</b> 
+        <br> ¡Tenemos la mejor variedad de tamaños!
+        <br><button class="botontarjetas" type="button" id="search">Ver más</button>
+            </div>
+         <div class="tarjeta6">
+        <b>Accesorios</b> 
+        <br> ¡Todos los complementos para ser el mejor artista!
+        <br><button class="botontarjetas" type="button" id="search">Ver más</button>
+         </div>
+        </div>
+    </div>
+
+    <div class="sec3">
+           <div class="divimagen1">
+               <img class="fot" src="pintando.jpg" alt="">
+           </div> 
+
+           <div  class="frases">
+            <h1 class="en1"> ¿Tienes alguna pregunta sobre el material o la técnica que vas a utilizar?</h1>
+               <h2 class="en2"> Llámanos o evíanos un mensaje y te atendemos de manera personal</h2>
+           </div>
+    </div>
+
+    <div class="sec4">
+        <div class="contact_form">
+
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>    
+                      
+                        <p>
+                          <label for="website" class="colocar_website">Sitio web
+                          </label>
+                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                        </p>    
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>Los campos son obligatorios.
+                        </p>          
+                    
+                  </form>
+            </div>  
+          </div>
+    </div>
+
+    <div class="sec5">
+      
+        <h2 class="tituloredes">!Búscanos en Redes Sociales!</h2>
+        <ul class="socialIcons">
+          <li class="facebook"><a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+          <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+          <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+          <li class="pinterest"><a href=""><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li>
+         
+        </ul>
+</div>
+    
+</main>
+
+</body>
+</html>
