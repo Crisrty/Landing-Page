@@ -468,8 +468,36 @@ ul.socialIcons {
 
     .encabezado {
         background-color: rgb(102, 255, 0);
-
     }
+	header nav a {
+		font-size: 20px;
+	}
+	.tarjeta4{
+		font-size:35px;
+	}
+	
+	.tarjeta5{
+		font-size: 35px;
+	}
+	
+	.tarjeta6{
+		font-size:35px;
+	}
+
+	.en1{
+		font-size:30px;
+	}
+	
+	.en2{
+		font-size:30px;
+	}
+
+	.fotopin{
+		margin-left: 20px;
+		width: 300px;
+		height: 200px;
+		border-radius: 10px;
+	}
   }
 
   }
