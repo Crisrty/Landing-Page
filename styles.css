@@ -547,12 +547,12 @@ ul.socialIcons {
     .encabezado {
         background-color: rgb(255, 217, 0);
 		flex-direction: column;
-        height: 30vh;
+        height: 35vh;
 	}
 	.titulo{
-		color: rgb(67, 73, 122);
 		font-size:45px;
 		margin-top: 20px;
+		margin-left: 300px;
 	}
 	.en1{
 		font-size:18px;
@@ -595,18 +595,18 @@ ul.socialIcons {
         height: 30vh;
     }
 	.titulo{
-		color: rgb(67, 73, 122);
 		font-size:30px;
 		margin-top: 20px;
+		margin-left: 120px;
 	}
 	header nav a {
 		font-size: 18px;
 	}
 
 	.cuadrobuscar{
-		font-family: 'Truculenta', sans-serif;
 		width: 120px;
 		height: 35px;
+		margin-left: 72px;
 		}
 		
 	.botonbuscar{
@@ -671,5 +671,33 @@ ul.socialIcons {
 
     }
 
+
+	header nav a {
+		font-size: 12px;
+	}
+
+	.fotopin{
+		width: 80px;
+		height: 70px;
+	}
+
+	.botontarjetas{
+		font-size: 15px;
+		width: 65px;
+	}
+
+	input{
+		width: 180px; 
+	  }
+
+	textarea{
+		width: 180px; 
+		height: 130px; 
+		font-size: 18px;
+	  }
+
+	  button{ 
+		width: 200px;   
+	  }
    }
    }
