@@ -591,8 +591,76 @@ ul.socialIcons {
 
     .encabezado {
         background-color: rgb(238, 0, 255);
-
+		flex-direction: column;
+        height: 30vh;
     }
+	.titulo{
+		color: rgb(67, 73, 122);
+		font-size:30px;
+		margin-top: 20px;
+	}
+	header nav a {
+		font-size: 18px;
+	}
+
+	.cuadrobuscar{
+		font-family: 'Truculenta', sans-serif;
+		width: 120px;
+		height: 35px;
+		}
+		
+	.botonbuscar{
+			font-size: 15px;
+			border-radius: 5px;
+			width: 80px;
+			height: 35px;
+		}
+
+	.en1{
+		margin-top: 15px;
+		font-size:12px;
+	}
+	
+	.en2{
+		font-size:12px;
+	}
+
+	.fotopin{
+		width: 100px;
+		height: 85px;
+	}
+
+	.tarjeta4{
+		font-size:18px;
+		height: 50px;
+	}
+	
+	.tarjeta5{
+		font-size: 18px;
+	}
+	
+	.tarjeta6{
+		font-size:18px;
+	}
+
+	.botontarjetas{
+		font-size: 18px;
+		width: 80px;
+	}
+
+	input{
+		width: 200px; 
+	  }
+
+	textarea{
+		width: 200px; 
+		height: 130px; 
+		font-size: 18px;
+	  }
+
+	  button{ 
+		width: 200px;   
+	  }
   }
 
   /*X-Small devices (portrait phones, less than 576px)*/
