@@ -463,43 +463,145 @@ ul.socialIcons {
 		font-size: 25px;
 	}
 
+	.fotopin{
+		width: 220px;
+		height: 180px;
+	}
+
+	.tarjeta4{
+		font-size:28px;
+	}
+	
+	.tarjeta5{
+		font-size: 28px;
+	}
+	
+	.tarjeta6{
+		font-size:28px;
+	}
+
+	.botontarjetas{
+		font-size: 20px;
+		width: 180px;
+	}
+	.en1{
+		font-size:32px;
+	}
+	
+	.en2{
+		font-size:32px;
+	}
+
 /* Large devices (desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 
     .encabezado {
-        background-color: rgb(102, 255, 0);
+        background-color: greenyellow;
+		flex-direction: column;
+        height: 30vh;
+		justify-content: center;
     }
+
+	.titulo{
+		color: rgb(67, 73, 122);
+		font-size:45px;
+		margin-top: 20px;
+	}
 	header nav a {
 		font-size: 20px;
 	}
 	.tarjeta4{
-		font-size:35px;
+		font-size:30px;
 	}
 	
 	.tarjeta5{
-		font-size: 35px;
+		font-size: 30px;
 	}
 	
 	.tarjeta6{
-		font-size:35px;
+		font-size:28px;
 	}
 
 	.en1{
-		font-size:30px;
+		font-size:25px;
 	}
 	
 	.en2{
-		font-size:30px;
+		font-size:25px;
 	}
 
 	.fotopin{
-		margin-left: 20px;
-		width: 300px;
-		height: 200px;
-		border-radius: 10px;
+		width: 220px;
+		height: 180px;
+	}
+
+	.botontarjetas{
+		font-size: 20px;
+		width: 150px;
 	}
   }
 
+ /* Medium devices (tablets, 768px and up) */
+ @media only screen and (max-width: 768px) {
+
+    .encabezado {
+        background-color: rgb(255, 217, 0);
+		flex-direction: column;
+        height: 30vh;
+	}
+	.titulo{
+		color: rgb(67, 73, 122);
+		font-size:45px;
+		margin-top: 20px;
+	}
+	.en1{
+		font-size:18px;
+	}
+	
+	.en2{
+		font-size:18px;
+	}
+
+	.fotopin{
+		width: 160px;
+		height: 130px;
+	}
+
+	.tarjeta4{
+		font-size:20px;
+		height: 100px;
+	}
+	
+	.tarjeta5{
+		font-size: 20px;
+	}
+	
+	.tarjeta6{
+		font-size:18px;
+	}
+
+	.botontarjetas{
+		font-size: 18px;
+		width: 130px;
+	}
   }
 
+  /* Small devices (landscape phones, 576px and up) */
+  @media only screen and (max-width: 576px) {
 
+    .encabezado {
+        background-color: rgb(238, 0, 255);
+
+    }
+  }
+
+  /*X-Small devices (portrait phones, less than 576px)*/
+  @media only screen and (max-width: 320px) {
+
+    .encabezado {
+        background-color: rgb(255, 128, 0);
+
+    }
+
+   }
+   }
